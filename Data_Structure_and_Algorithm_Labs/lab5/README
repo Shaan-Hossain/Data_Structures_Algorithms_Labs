@@ -1,0 +1,50 @@
+********************************************
+Course: COE-428
+Lab#: Lab_5
+Name: Shaan Hossain
+Student# : 500882569
+********************************************
+
+  Part 1:
+     Works  Yes or No
+     YES,it works
+  Part 2:
+     Works  Yes or No
+     YES,it works
+  Part 3:
+     Works  Yes or No
+     YES,it works
+***ANSWERS TO QUESTIONS***
+ Question 1:
+     Which hash table collision resolution method did you use
+     (eg. chaining or open addressing)? Explain your choice
+     briefly (less than 25 words).
+ YOUR ANSWER:
+ Open addressing since the load factor is low due the test cases being very small
+ in size in comparison to the available spaces in the array.
+ 
+ Question 2:
+       Which hash function (division or multiplication) did you use?
+       How did you convert a string into a number?
+ YOUR ANSWER:
+ I used the division hashing function, and I converted the 
+ string into a number by casting each indivdual character to 
+ an int, and summing all these numbers to give the corresponding
+ number for the string. 
+ 
+ Question 3:
+       Another legal XML tag not used in this lab is the
+       stand-alone tag.  This kind of tag
+       combines both a start-tag and end-tag in one.
+       It is identified with a '/' (slash) preceding the
+       final >.  (For example, the <foo/>
+       is a stand-alone tag that is self balancing.
+       
+       Describe briefly how
+       you would modify Part 3 to allow this kind of tag.
+       
+ YOUR ANSWER:
+I should make the code search for a ' / ' before the ' > ' to define a stand-alone tag, and pop the strings 
+before the ' / ' into the hash table. This is the only property I'd have to look for because it's exclusive to 
+the stand-alone name. After this, I'd keep searching for more stand-alone tags using the same approach as mentioned 
+before.

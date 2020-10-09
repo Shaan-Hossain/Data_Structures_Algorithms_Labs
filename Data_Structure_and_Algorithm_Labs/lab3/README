@@ -1,0 +1,36 @@
+********************************************
+Course: COE-428
+Lab#: Lab_3
+Name: Shaan Hossain
+Student# : 500882569
+********************************************  
+
+Requirement#1: Everything Works. 
+Requirement#2: Everything Works.
+Requirement#3: 
+1. Implemented both InsertionSort and MergeSort using functions myCopy, mySwap, and myCompare, in order to measure 
+the amount of comparisons and swaps used in each algorithm to measure the efficency of its worst, average, and best case.
+2. 
+Analysis of Insertion Sort: 
+Best Case Input: 1 2 3 4 5 6 
+Comparsions:6-1 = 5 = n-1
+Swaps:0  
+Therefore, best case is T(n)= O(n)
+Worst Case Input: 6 5 4 3 2 1 
+Comparsions:20
+Swaps:15 
+Therefore, 20 + 15 = 35 = n^2 -1, 
+Worst case is T(n) = O(n^2) 
+Average Case: On average, it is Worst Case. Therefore, T(n) = O(n^2) 
+
+Analysis of Merge Sort: 
+Best Case Input: 1 2 3 4 5 6
+Comparsions: 9 
+Swaps: 16 
+Therefore, 16 + 9 = 25 ~ n log n, T(n)= O(n log n)
+Worst Case Input: 6 5 4 3 2 1
+Comparsions: 7
+Swaps: 16 
+Therefore, 16 + 7 = 23 ~ n log n, T(n) = O(n^2)
+Average Case: Since both best and worst have the same complexity, the average must have the same.
+Therefore, T(n) = n log n. 
